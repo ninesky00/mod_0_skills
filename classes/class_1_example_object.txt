@@ -1,0 +1,14 @@
+Joe
+
+attributes:
+shift: "morning shift"
+on_shift: false
+wage: 15
+phone_number: 123-456-7890
+cpr_certified: yes
+
+methods
+verify_shift(10AM-6PM)
+on_shift.include?(false)
+increase_wage (15+1 = 16)
+contact_for_work(call 123-456-7890)
