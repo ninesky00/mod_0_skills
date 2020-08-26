@@ -1,0 +1,15 @@
+Class: Karen
+
+attributes:
+on_time(yes)
+new(yes)
+order_food(no)
+mood("bad")
+
+
+
+methods
+reserve_table(bring to reserved table B1)
+introduce menu(introduce food variety and menu options, toggle new = false)
+place order(order steak dinner)
+concession(change mood to neutral)
