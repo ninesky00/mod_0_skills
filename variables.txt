@@ -1,0 +1,9 @@
+food = "steak"
+is_delicious = true
+food = "burger"
+num2 = 2
+num7 = 8
+quotient = num7 / num2
+songs = ["wap", "laugh now cry later", "rockstar", "blinding lights"]
+song.shift
+food.length
