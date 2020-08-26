@@ -1,0 +1,14 @@
+Class: Employee
+
+attributes:
+shift(string)
+on_shift(boolean)
+total(integer)
+total_onshift(integer)
+cpr_certified(boolean)
+
+methods
+verify_shift(displays shift schedule)
+check on_shift(checks if employee is on shift)
+recruit(total + 1)
+contact_for_work(total_onshift + 1)
