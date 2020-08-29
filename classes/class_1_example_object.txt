@@ -4,11 +4,11 @@ attributes:
 shift: "morning shift"
 on_shift: false
 wage: 15
-phone_number: 123-456-7890
-cpr_certified: yes
+phone_number: "123-456-7890"
+cpr_certified: true
 
 methods
-verify_shift(10AM-6PM)
-on_shift.include?(false)
-increase_wage (15+1 = 16)
-contact_for_work(call 123-456-7890)
+verify_shift => "10AM-6PM"
+check_on_shift(false)
+increase_wage => 16 
+contact_for_work => dial "123-456-7890"

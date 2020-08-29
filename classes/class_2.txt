@@ -2,14 +2,15 @@ Class: Customer
 
 attributes:
 on_time(boolean)
-new(boolean)
-order_food(boolean)
-mood(array["really bad" "bad" "neutral" "good" "really good"])
-
+new_customer(boolean)
+is_hungry(boolean)
+empty_drink(boolean)
+handicap(boolean)
 
 
 methods
 reserve_table(bring to reserve table if on_time)
-introduce menu(if new customer)
-place order(if order_food = false)
-concession(increase mood)
+introduce_menu(if new customer)
+place_order(if is_hungry = true)
+fill_drink(fill drink)
+accomendations(address handicap needs)

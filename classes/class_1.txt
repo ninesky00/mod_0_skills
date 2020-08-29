@@ -4,11 +4,11 @@ attributes:
 shift(string)
 on_shift(boolean)
 wage(integer)
-phone_number(string)
+phone_number(string) #I believe string is appropiate for phone number
 cpr_certified(boolean)
 
 methods
 verify_shift(displays shift schedule)
-on_shift.include(checks if employee is on shift)
+check_on_shift(checks if employee is on shift)
 increase_wage(wage + 1)
 contact_for_work(call phone_number)
