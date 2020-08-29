@@ -10,7 +10,7 @@ handicap(boolean)
 
 methods
 reserve_table(bring to reserve table if on_time)
-introduce_menu(if new customer)
+introduce_menu(if new_customer)
 place_order(if is_hungry = true)
-fill_drink(fill drink)
+fill_drink(add drink to full)
 accomendations(address handicap needs)

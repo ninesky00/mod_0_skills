@@ -9,6 +9,6 @@ cpr_certified(boolean)
 
 methods
 verify_shift(displays shift schedule)
-check_on_shift(checks if employee is on shift)
+check_on_shift(checks if employee is on_shift)
 increase_wage(wage + 1)
 contact_for_work(call phone_number)

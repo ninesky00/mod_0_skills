@@ -11,5 +11,5 @@ handicap: false
 methods
 reserve_table(bring to reserved table B1)
 introduce_menu(introduce food variety and menu options)
-place_order(order steak dinner)
-fill_drink(Coca cola)
+place_order(place order for steak dinner)
+fill_drink(add Coca cola to full)
