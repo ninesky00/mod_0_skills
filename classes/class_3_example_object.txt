@@ -1,0 +1,20 @@
+Class: Joe's Receipt
+
+Attributes:
+header: "Welcome to Extra Example"
+menu_item: "western omelette"
+menu_price: 7.0
+list: ["western omelette", "coffee", "bagel"]
+sales_tax: 0.08
+subtotal: 12.5
+discount: 0.15
+total: 13.5
+paid: false
+
+Methods
+add_item("apple juice")
+edit("western omelette" + "extra cheese")
+calculate_sales_tax(sales_tax * subtotal) => 1
+apply_discount(total * discount) => 2
+calculate_new_total(12.5 + 1 - 2) =>11.5
+comment("Thank you for visiting Extra Example")

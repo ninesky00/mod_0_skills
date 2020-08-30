@@ -1,0 +1,20 @@
+Class: Receipt
+
+Attributes:
+header(string)
+menu_item(string)
+menu_price(float)
+list(array)
+sales_tax(float)
+subtotal(float)
+discount(float)
+total(float)
+paid(boolean)
+
+Methods
+add_item(adds item to list)
+edit(modifies header, menu_item, and/or menu_price)
+calculate_sales_tax(calculates sales tax)
+apply_discount(applies discount to total)
+calculate_new_total(sums all prices, taxes, and discount)
+comment(add comment to list)
